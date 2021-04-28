@@ -51,6 +51,10 @@ header {
    background-position: center;
    position: relative;
 }
+
+section {
+  padding: 60px;
+}
 /* Hero Style End */
 
 .hero-form h3 {
@@ -121,7 +125,7 @@ header {
   background: #fce138;
 }
 
-.steps h2 {
+.section-title {
   font-size: 55px;
   color: #024e76;
   margin-bottom: 35px;
@@ -154,12 +158,19 @@ header {
   font-size: 38px;
 }
 
+
 .trainers {
   text-align: center;
   font-size: 55px;
 }
 
+.primary-border {
+  border-color: #fce138;
+}
 
+.secondary-border {
+  border-color: #39a6b2;
+}
 
 .trainer {
   width: 900px;
