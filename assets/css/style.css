@@ -51,10 +51,11 @@ header {
   /* Hero Style Start */
 .hero {
   background-image: url("../images/hero-bg.jpg");
-  height: 600px;
   background-size: cover;
   background-position: center;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   align-items: flex-start;
 }
 /* Hero Style End */
@@ -82,10 +83,8 @@ header {
   border: solid 3px #024e76;
   background-color: #fce138;
   padding: 20px;
+  color: #024e76;
   width: 40%;
-  position: absolute;
-  bottom: 120px;
-  right: 140px;
   margin: 3.5%;
 }
 
@@ -238,11 +237,11 @@ section {
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
-  width: 50%;: #024e76;
+  width: 50%;
 }
 
 .primary-border {
-  border-color: var(--primary-color);
+  border-color: #fce138;
 }
 
 /* REACH OUT STYLES START */
@@ -320,6 +319,7 @@ section {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
@@ -343,7 +343,7 @@ section {
     display: flex;
   }
 
-
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   header {
     padding-bottom: 0;
@@ -391,6 +391,7 @@ section {
   }
 }
 
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
 
   section {
